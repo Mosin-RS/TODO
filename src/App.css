@@ -1,0 +1,65 @@
+.App {
+  
+}
+
+.eachItem:hover {
+    color: #fff;
+    background-color: #cda1a7;
+    cursor: pointer;
+    transition: 0.75s ease all;
+}
+
+.eachItem {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin: 0px auto;
+}
+
+.eachItem  .fa-edit:hover {
+  color: #4cf470;
+  transition: 0.50s all ease;
+  border-color:#4cf470;
+}
+
+.eachItem  .fa-trash-alt:hover {
+  color: #ff0018;
+  transition: 0.50s all ease;
+  border-color:#ff0018;
+}
+
+.eachItem i {
+  cursor: pointer;
+  padding: 5px;
+  border: 1px solid#ccc;
+  margin: 0px 10px;
+  border: 1px solid#ccc;
+  border-radius: 5px;
+  padding: auto;
+}
+
+
+
+.main-form i {
+  cursor: pointer;
+  padding: 5px;
+  border: 1px solid#ccc;
+  margin: 0px 10px;
+}
+
+.main-form input[type="text"] {
+  width: 80%;
+  border: 1px solid#ccc;
+  border-radius: 5px;
+}
+
+figure {text-align: center;}
+.main-box {
+  padding: 20px;
+  margin: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.showItems {
+  padding: 10px;
+}
